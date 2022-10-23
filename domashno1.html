@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <fieldset>
+            <title>Lunch special</title>
+            <h1>Dado Tea Lunch Special</h1>
+        </head>
+
+        <body>
+
+            <p>Monday through Friday <br>
+                11am-3am <br>
+                $9.95 plus tax
+            </p>
+
+            <p>Includes sandwich, snack, and drink.</p>
+
+            <fieldset>
+                <legend>Order information</legend>
+
+                <form method="post">
+                    <p><strong><label>Name:</strong>
+                        <input name="name" type="text" size="30">
+                        </label></p>
+                </form>
+
+                <form method="post">
+                        <input name="Where" type="radio" value="Here">
+                    <label>
+                        Here
+                    </label> <br>
+                        <input name="Where" type="radio" value="To go">  
+                    <label>
+                        To go                 
+                     </label>
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sandwiches</legend>
+                <form method="post">
+                    <p><b>Monday</b> <br>
+                    <input name="Monday" type="radio" value="Tomato">
+                    <label>
+                        Tomato Mozzarella
+                    </label> <br>
+                    <input name="Monday" type="radio" value="Chicken">
+                    <label>
+                        Chicken Salad
+                    </label>
+                    </p>
+                </form>
+                <form method="post">
+                    <p><b>Tuesday</b> <br>
+                    <input name="Tuesday" type="radio" value="Greek">
+                    <label>
+                        Greek Salad Wrap
+                    </label> <br>
+                    <input name="Tuesday" type="radio" value="Toto">
+                    <label>
+                        Toto Wrap
+                    </label>
+                    </p>
+                </form>
+                <form method="post">
+                    <p><b>Wednesday</b> <br>
+                    <input name="Wednesday" type="radio" value="Red">
+                    <label>
+                        Red Pepper Hummus
+                    </label> <br>
+                    <input name="Wednesday" type="radio" value="Roasted">
+                    <label>
+                        Roasted Turkey
+                    </label> 
+                    </p>
+                </form>
+                <form method="post">
+                    <p><b>Thursday</b> <br>
+                    <input name="Thursday" type="radio" value="Carrot">
+                    <label>
+                        Carrot-Ginger Hummus Wrap
+                    </label> <br>
+                    <input name="Thursday" type="radio" value="Egg">
+                    <label>
+                        Egg Salad
+                    </label>
+                     </p>
+                </form>
+                <form method="post">
+                    <p><b>Friday</b> <br>
+                    <input name="Friday" type="radio" value="Dado">
+                    <label>
+                        Dado Wrap
+                    </label> <br>
+                    <input name="Friday" type="radio" value="Tuna">
+                    <label>
+                        Tuna Salad
+                    </label>
+                    </p>
+                </form>
+                <hr>
+                <form method="post">
+                    <input name="Bread" type="checkbox" value="extra">
+                    <label>
+                        Gluten Free Bread (75c extra)
+                    </label>
+                </form>
+            </fieldset>
+             <fieldset>
+                <legend>Snack</legend>
+                <form method="post">
+                <p><b>Snacks</b> <br>
+                <input name="Snacks" type="radio" value="Apple">
+                <label>
+                    Apple
+                  </label> <br>
+                 <input name="Snacks" type="radio" value="Banana">
+                 <label>
+                    Banana
+                </label> <br>
+                 <input name="Snacks" type="radio" value="Potato">
+                <label>
+                     Potato Chips
+                </label>
+                </p>
+                </form>
+    </fieldset>
+            <fieldset>
+                <legend>Drink</legend>
+                <form method="post">
+                <p><b>Drinks</b> <br>
+                <select name="Drinks">
+                    <option selected>Hot Black Tea - Keemun</option>
+                    <option>Coffee</option>
+                    <option>Iced Coffee</option>
+                    <option>Organic Peppermint</option>
+                    <option>Hot Sencha Green Tea</option>
+                    <option>Iced Sencha Green Tea</option>
+                    <option>Iced Keemun Black Tea</option>
+                </select>
+                </p>
+                </form>
+                <hr>
+                <form>
+                <input name="Drink" type="checkbox" value="large">
+                <label>
+                    Large Drink (75c extra)
+                </label>
+            </fieldset>
+                </form>
+                <br>
+                <br>
+                <form>
+                    <input type="submit" value="Place order">
+                </form>
+            </fieldset>
+        </body>
+    </html>
